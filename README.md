@@ -3,7 +3,7 @@
 
 这是一个 RouterOS 脚本，用于将公网 IPv6 地址更新到 Cloudflare 的 DNS 记录，实现动态 DDNS 功能。用于 [Mikrotik](https://mikrotik.com/) RouterOS v7 路由器。
 
-当然 RouterOS 本身也有 [Cloud](https://help.mikrotik.com/docs/spaces/ROS/pages/97779929/Cloud#Cloud-DDNS) DDN 服务，自己按需使用就好。
+当然 RouterOS 本身也有 [Cloud](https://help.mikrotik.com/docs/spaces/ROS/pages/97779929/Cloud#Cloud-DDNS) DDNS 服务，自己按需使用就好。
 
 因为我只有移动的 Ipv6 公网地址，在使用 WireGuard 时候需要域名只有v6地址才行，Cloud 会把我非公网的v4地址添加到记录，导致 WireGuard 连接失败。 
 
